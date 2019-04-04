@@ -8,9 +8,8 @@ import java.util.Calendar;
 
 /**
  * MyBatis MAPPER接口与映射文件生成器
- * @author LEE.SIU.WAH
- * @email lixiaohua7@163.com
- * @date 2013-7-22 下午10:20:40
+ * @author tobias
+ * @email tobias@163.com
  * @version 1.0
  */
 public class MapperGenerator {
@@ -37,8 +36,7 @@ public class MapperGenerator {
 			/** 拼接生成注释字符串 */
 			res.append("/**\n");
 			res.append(" * " + className + "Mapper 数据访问接口\n");
-			res.append(" * @author LEE.SIU.WAH\n");
-			res.append(" * @email lixiaohua7@163.com\n");
+			res.append(" * @author tobias\n");
 			res.append(" * @date " + sdf.format(Calendar.getInstance().getTime()) + "\n");
 			res.append(" * @version 1.0\n");
 			res.append(" */\n");

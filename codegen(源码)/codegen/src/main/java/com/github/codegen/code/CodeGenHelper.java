@@ -11,9 +11,7 @@ import java.util.Map;
 
 /**
  * 代码生成助手类
- * @author LEE.SIU.WAH
- * @email lixiaohua7@163.com
- * @date 2012-10-19 下午2:54:18
+ * @author tobias
  * @version 1.0
  */
 public class CodeGenHelper {

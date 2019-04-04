@@ -1,9 +1,7 @@
 package com.github.codegen.util;
 /**
  * StringUtils
- * @author LEE.SIU.WAH
- * @email lixiaohua7@163.com
- * @date 2013-7-22 下午10:31:17
+ * @author tobias
  * @version 1.0
  */
 public class StringUtils {

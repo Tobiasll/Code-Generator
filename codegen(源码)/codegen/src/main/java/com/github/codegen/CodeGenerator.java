@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 /**
  * 代码生成器主窗口(程序入口)
  *
- * @author lee.siu.wah
+ * @author tobias
  * @version 1.0
  * <p>File Created at 2018-07-18<p>
  */

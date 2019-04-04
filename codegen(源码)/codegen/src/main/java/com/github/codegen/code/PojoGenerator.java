@@ -11,9 +11,8 @@ import java.util.Map;
 
 /**
  * DTO Java File Helper
- * @author LEE.SIU.WAH
- * @email lixiaohua7@163.com
- * @date 2012-10-19 下午3:49:01
+ * @author tobisa
+ * @email tobias@163.com
  * @version 1.0
  */
 public final class PojoGenerator {
@@ -39,8 +38,7 @@ public final class PojoGenerator {
 			/** 拼接生成注释字符串 */
 			res.append("/**\n");
 			res.append(" * " + className + " 实体类\n");
-			res.append(" * @author LEE.SIU.WAH\n");
-			res.append(" * @email lixiaohua7@163.com\n");
+			res.append(" * @author tobias\n");
 			res.append(" * @date " + sdf.format(Calendar.getInstance().getTime()) + "\n");
 			res.append(" * @version 1.0\n");
 			res.append(" */\n");

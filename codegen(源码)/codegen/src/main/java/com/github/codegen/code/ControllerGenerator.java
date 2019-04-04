@@ -11,8 +11,7 @@ import java.util.Calendar;
 /**
  * 控制器生成器
  *
- * @author lee.siu.wah
- * @version 1.0
+ * @author tobias
  * <p>File Created at 2018-07-18<p>
  */
 public class ControllerGenerator {
@@ -46,8 +45,7 @@ public class ControllerGenerator {
             /** 拼接生成注释字符串 */
             res.append("/**\n");
             res.append(" * " + className + "Controller 控制器类\n");
-            res.append(" * @author LEE.SIU.WAH\n");
-            res.append(" * @email lixiaohua7@163.com\n");
+            res.append(" * @author tobias\n");
             res.append(" * @date " + sdf.format(Calendar.getInstance().getTime()) + "\n");
             res.append(" * @version 1.0\n");
             res.append(" */\n");

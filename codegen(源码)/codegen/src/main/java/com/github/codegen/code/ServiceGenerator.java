@@ -10,9 +10,7 @@ import java.util.Calendar;
 
 /**
  * 业务层接口与实现类生成
- * @author LEE.SIU.WAH
- * @email lixiaohua7@163.com
- * @date 2013-7-22 下午10:20:40
+ * @author tobias
  * @version 1.0
  */
 public class ServiceGenerator {
@@ -42,8 +40,7 @@ public class ServiceGenerator {
 			/** 拼接生成注释字符串 */
 			res.append("/**\n");
 			res.append(" * " + className + "Service 服务接口\n");
-			res.append(" * @author LEE.SIU.WAH\n");
-			res.append(" * @email lixiaohua7@163.com\n");
+			res.append(" * @author tobisa\n");
 			res.append(" * @date " + sdf.format(Calendar.getInstance().getTime()) + "\n");
 			res.append(" * @version 1.0\n");
 			res.append(" */\n");
@@ -101,8 +98,7 @@ public class ServiceGenerator {
 			/** 拼接生成注释字符串 */
 			res.append("/**\n");
 			res.append(" * " + className + "ServiceImpl 服务接口实现类\n");
-			res.append(" * @author LEE.SIU.WAH\n");
-			res.append(" * @email lixiaohua7@163.com\n");
+			res.append(" * @author tobias\n");
 			res.append(" * @date " + sdf.format(Calendar.getInstance().getTime()) + "\n");
 			res.append(" * @version 1.0\n");
 			res.append(" */\n");
